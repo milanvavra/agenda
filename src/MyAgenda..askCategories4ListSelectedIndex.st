@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'MilanVavra 2/27/2015 00:26'!
+!MyAgenda methodsFor: 'controller' stamp: 'mv 2/27/2015 00:26'!
 askCategories4ListSelectedIndex: tmpIndex
 	| tmpCategory tmpItem |
 	tmpCategory := self askCategories4List at: tmpIndex.

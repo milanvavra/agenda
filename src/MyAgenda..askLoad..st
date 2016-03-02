@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'MilanVavra 9/7/2015 16:52'!
+!MyAgenda methodsFor: 'controller' stamp: 'mv 9/7/2015 16:52'!
 askLoad
 	| tmpFileName tmpCharCount tmpRowCount tmpColCount tmpItemCategories tmpCategoryItems tmpLine tmpItem tmpChar tmpCategory tmpCategories |
 	tmpFileName := self askFileName askFileNameText.

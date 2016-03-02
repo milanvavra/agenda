@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'MilanVavra 9/11/2015 02:27'!
+!MyAgenda methodsFor: 'controller' stamp: 'mv 9/11/2015 02:27'!
 askOpenItem
 	| tmpItem |
 

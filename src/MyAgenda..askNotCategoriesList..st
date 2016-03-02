@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'view' stamp: 'MilanVavra 5/8/2015 01:58'!
+!MyAgenda methodsFor: 'view' stamp: 'mv 5/8/2015 01:58'!
 askNotCategoriesList
 	^self askNotCategories
 		sorted: [:tmpCategory1 :tmpCategory2|

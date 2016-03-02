@@ -3,7 +3,7 @@ Object subclass: #MyAgenda
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'MyAgenda'!
-!MyAgenda commentStamp: 'MilanVavra 5/8/2015 01:31' prior: 0!
+!MyAgenda commentStamp: 'mv 5/8/2015 01:31' prior: 0!
 MyItemManager new askOpen.
 
 Dictionary of Sets

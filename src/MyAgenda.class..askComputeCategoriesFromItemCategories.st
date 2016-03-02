@@ -1,4 +1,4 @@
-!MyAgenda class methodsFor: 'compute' stamp: 'MilanVavra 5/7/2015 04:02'!
+!MyAgenda class methodsFor: 'compute' stamp: 'mv 5/7/2015 04:02'!
 askComputeCategoriesFromItemCategories: tmpItemCategories
 	| tmpCategories1 |
 

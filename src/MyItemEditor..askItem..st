@@ -1,4 +1,4 @@
-!MyItemEditor methodsFor: 'as yet unclassified' stamp: 'MilanVavra 2/22/2015 15:31'!
+!MyItemEditor methodsFor: 'as yet unclassified' stamp: 'mv 2/22/2015 15:31'!
 askItem
 	^varItem
 ! !

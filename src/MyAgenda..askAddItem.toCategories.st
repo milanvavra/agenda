@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'model' stamp: 'MilanVavra 2/26/2015 16:49'!
+!MyAgenda methodsFor: 'model' stamp: 'mv 2/26/2015 16:49'!
 askAddItem: tmpItem toCategories: tmpCategories
 "	modifies
 	self askItemCategories

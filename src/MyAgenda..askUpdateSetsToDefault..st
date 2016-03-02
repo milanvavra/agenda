@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'view' stamp: 'MilanVavra 3/10/2015 04:34'!
+!MyAgenda methodsFor: 'view' stamp: 'mv 3/10/2015 04:34'!
 askUpdateSetsToDefault
 	self askOrCategoriesToDefault.
 	self askAndCategoriesToDefault.

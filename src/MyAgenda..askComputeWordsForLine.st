@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'model' stamp: 'MilanVavra 3/21/2015 00:36'!
+!MyAgenda methodsFor: 'model' stamp: 'mv 3/21/2015 00:36'!
 askComputeWordsForLine: tmpLine
 	| tmpWord tmpWords |
 

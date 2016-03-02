@@ -1,4 +1,4 @@
-!MyItemManager methodsFor: 'open/close' stamp: 'MilanVavra 9/11/2015 02:32'!
+!MyItemManager methodsFor: 'open/close' stamp: 'mv 9/11/2015 02:32'!
 askOpenWith: tmpAgenda
 	| tmpBuilder |
 	varAgenda := tmpAgenda.

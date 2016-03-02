@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'MilanVavra 3/10/2015 04:22'!
+!MyAgenda methodsFor: 'controller' stamp: 'mv 3/10/2015 04:22'!
 askNotCategoriesListSelectedIndex: tmpIndex
 	self askAndCategoriesSelected ifTrue:
 		[  self askAndCategories add: (self askNotCategoriesList at: tmpIndex) ].

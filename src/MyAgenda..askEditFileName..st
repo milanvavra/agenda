@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'MilanVavra 3/20/2015 04:22'!
+!MyAgenda methodsFor: 'controller' stamp: 'mv 3/20/2015 04:22'!
 askEditFileName
 	| tmpFileNameEditor |
 

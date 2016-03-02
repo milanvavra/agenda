@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'model' stamp: 'MilanVavra 5/8/2015 02:11'!
+!MyAgenda methodsFor: 'model' stamp: 'mv 5/8/2015 02:11'!
 askItems: tmpItems ItemCategories: tmpItemCategories StoreOn: aStream
 	|  tmpAssociations tmpIndex |
 
