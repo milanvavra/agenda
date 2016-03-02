@@ -1,0 +1,5 @@
+"-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- "!
+
+MyAgenda class
+	instanceVariableNames: 'varAgenda'!
+
