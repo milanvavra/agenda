@@ -1,4 +1,4 @@
-!MyAgenda class methodsFor: 'accessing' stamp: 'mv 9/6/2015 01:56'!
+!MyAgenda class methodsFor: 'accessing' stamp: 'mva 9/6/2015 01:56'!
 nbSystem: str
 "
 	This is a basic example for making an external call.

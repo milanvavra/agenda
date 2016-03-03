@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'model' stamp: 'mv 3/10/2015 04:46'!
+!MyAgenda methodsFor: 'model' stamp: 'mva 3/10/2015 04:46'!
 askComputeCategoryItemsFromItemCategories: tmpItemCategories AndItems: tmpItems
 	| tmpCategoryItems |
 

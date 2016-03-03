@@ -1,4 +1,4 @@
-!MyAgenda class methodsFor: 'compute' stamp: 'mv 5/7/2015 03:16'!
+!MyAgenda class methodsFor: 'compute' stamp: 'mva 5/7/2015 03:16'!
 askComputeValueKeysFromKeyValues: tmpKeyValues
 	| tmpValueKeys |
 

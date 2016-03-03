@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'mv 3/10/2015 04:22'!
+!MyAgenda methodsFor: 'controller' stamp: 'mva 3/10/2015 04:22'!
 askOrCategoriesListSelectedIndex: tmpIndex
 	self askAndCategoriesSelected ifTrue:
 		[  self askAndCategories add: (self askOrCategoriesList at: tmpIndex) ].

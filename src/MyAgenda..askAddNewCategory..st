@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'mv 9/7/2015 16:56'!
+!MyAgenda methodsFor: 'controller' stamp: 'mva 9/7/2015 16:56'!
 askAddNewCategory
 "	modifies
 	self askItemCategories

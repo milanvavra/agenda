@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'mv 5/7/2015 07:34'!
+!MyAgenda methodsFor: 'controller' stamp: 'mva 5/7/2015 07:34'!
 askSaveSelected
 	| tmpFileName |
 

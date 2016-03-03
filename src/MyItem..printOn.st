@@ -1,4 +1,4 @@
-!MyItem methodsFor: 'printing' stamp: 'mv 3/4/2015 16:11'!
+!MyItem methodsFor: 'printing' stamp: 'mva 3/4/2015 16:11'!
 printOn: aStream
 	aStream
 		nextPutAll: self className;

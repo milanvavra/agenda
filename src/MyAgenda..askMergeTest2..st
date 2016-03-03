@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'mv 9/7/2015 16:57'!
+!MyAgenda methodsFor: 'controller' stamp: 'mva 9/7/2015 16:57'!
 askMergeTest2
 	| tmpFileName tmpCharCount tmpRowCount tmpColCount tmpItemCategories tmpCategoryItems tmpLine tmpItem tmpChar tmpCategory tmpItemUrl tmpItemText tmpItem2 |
 	tmpFileName := self askFileName askFileNameText.

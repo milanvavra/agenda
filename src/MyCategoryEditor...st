@@ -3,7 +3,7 @@ Object subclass: #MyCategoryEditor
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'MyAgenda'!
-!MyCategoryEditor commentStamp: 'mv 2/22/2015 19:25' prior: 0!
+!MyCategoryEditor commentStamp: 'mva 2/22/2015 19:25' prior: 0!
 MyItemManager new askOpen.!
 
 

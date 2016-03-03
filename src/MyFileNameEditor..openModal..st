@@ -1,4 +1,4 @@
-!MyFileNameEditor methodsFor: 'as yet unclassified' stamp: 'mv 3/19/2015 23:04'!
+!MyFileNameEditor methodsFor: 'as yet unclassified' stamp: 'mva 3/19/2015 23:04'!
 openModal
 	|tmpBuilder tmpContent tmpDialog|
 
