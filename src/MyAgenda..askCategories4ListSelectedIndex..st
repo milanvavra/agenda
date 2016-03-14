@@ -1,4 +1,16 @@
-!MyAgenda methodsFor: 'view' stamp: 'mva 2/19/2015 19:23'!
-askCategories4ListSelectedIndex
-	^0
+!MyAgenda methodsFor: 'controller' stamp: 'mva 2/27/2015 00:26'!
+askCategories4ListSelectedIndex: tmpIndex
+	| tmpCategory tmpItem |
+	tmpCategory := self askCategories4List at: tmpIndex.
+
+	tmpCategory askCategoryText = 'All' ifFalse:
+		[ tmpItem := self askItems2List at: self askItems2ListSelectedIndex.
+
+		"varItems2ListSelectedIndex := 0.
+		"
+
+		(self askItemCategories at: tmpItem) remove: tmpCategory.
+		(self askCategoryItems at:tmpCategory) remove: tmpItem.
+
+		self askUpdateWindow].
 ! !

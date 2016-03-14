@@ -1,4 +1,4 @@
-!MyItem methodsFor: 'accessing' stamp: 'mva 3/4/2015 15:51'!
-askItemText
-	^ varItemText ifNil: [ '' ]
+!MyItem methodsFor: 'accessing' stamp: 'mva 2/17/2015 02:18'!
+askItemText: tmpItemText
+	varItemText := tmpItemText
 ! !
