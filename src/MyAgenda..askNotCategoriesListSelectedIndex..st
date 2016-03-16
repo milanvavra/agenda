@@ -1,5 +1,9 @@
-!MyAgenda methodsFor: 'controller' stamp: 'mva 3/10/2015 04:22'!
+!MyAgenda methodsFor: 'controller' stamp: 'mva 3/16/2016 01:27'!
 askNotCategoriesListSelectedIndex: tmpIndex
+
+	(thisContext sender sender sender methodSelector =  #keyStroke:
+	or: [tmpIndex = 0]) ifFalse: [
+
 	self askAndCategoriesSelected ifTrue:
 		[  self askAndCategories add: (self askNotCategoriesList at: tmpIndex) ].
 
@@ -14,4 +18,7 @@ askNotCategoriesListSelectedIndex: tmpIndex
 		changed: #askItems2ListSelectedIndex.
 
 	self askUpdateWindow
+
+	]
+
 ! !

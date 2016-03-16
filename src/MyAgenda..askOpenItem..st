@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'mva 9/11/2015 02:26'!
+!MyAgenda methodsFor: 'controller' stamp: 'mva 3/15/2016 21:43'!
 askOpenItem: tmpItem
 	| tmp1001 |
 
@@ -6,7 +6,8 @@ askOpenItem: tmpItem
 
 	tmp1001 = 'Mac OS'
 	ifTrue: [
-		NBMacShell open: tmpItem askItemUrl
+		"NBMacShell open: tmpItem askItemUrl"
+		Smalltalk system: 'open ', tmpItem askItemUrl.
 	].
 
 	tmp1001 = 'unix'

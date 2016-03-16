@@ -1,11 +1,10 @@
-!MyAgenda methodsFor: 'controller' stamp: 'mva 5/7/2015 06:05'!
+!MyAgenda methodsFor: 'controller' stamp: 'mva 3/16/2016 00:57'!
 askSave
 	| tmpFileName |
 
 	tmpFileName := self askFileName askFileNameText.
 
-	tmpFileName asFileReference
-		writeStreamDo: [ :tmpStream |
+	FileStream newFileNamed: tmpFileName do:[ :tmpStream |
 			self
 				askItems: self askItemCategories keys
 				ItemCategories: self askItemCategories

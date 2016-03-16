@@ -1,6 +1,10 @@
-!MyAgenda methodsFor: 'controller' stamp: 'mva 2/27/2015 00:26'!
+!MyAgenda methodsFor: 'controller' stamp: 'mva 3/16/2016 01:28'!
 askCategories4ListSelectedIndex: tmpIndex
 	| tmpCategory tmpItem |
+
+	(thisContext sender sender sender methodSelector =  #keyStroke:
+	or: [tmpIndex = 0]) ifFalse: [
+
 	tmpCategory := self askCategories4List at: tmpIndex.
 
 	tmpCategory askCategoryText = 'All' ifFalse:
@@ -13,4 +17,7 @@ askCategories4ListSelectedIndex: tmpIndex
 		(self askCategoryItems at:tmpCategory) remove: tmpItem.
 
 		self askUpdateWindow].
+
+	]
+
 ! !

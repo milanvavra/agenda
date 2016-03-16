@@ -1,4 +1,4 @@
-Object subclass: #MyAgenda
+Model subclass: #MyAgenda
 	instanceVariableNames: 'varFileName varItemCategories varCategoryItems varCategoryItems1 varCategories1 varCategories2 varItems2 varItems2ListSelectedIndex varCategories4 varCategories5 varCategoriesSelected varOrCategories varNotCategories varInstancesDictionary'
 	classVariableNames: ''
 	poolDictionaries: ''
@@ -35,5 +35,3 @@ tmpSet do: [ :tmpCategory |
 	 tmpDictionary at: tmpCategory askCategoryText put: tmpCategory ].
 tmpDictionary.
 !
-
-

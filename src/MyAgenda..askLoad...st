@@ -1,4 +1,4 @@
-!MyAgenda methodsFor: 'controller' stamp: 'mva 9/7/2015 16:52'!
+!MyAgenda methodsFor: 'controller' stamp: 'mva 3/15/2016 21:14'!
 askLoad
 	| tmpFileName tmpCharCount tmpRowCount tmpColCount tmpItemCategories tmpCategoryItems tmpLine tmpItem tmpChar tmpCategory tmpCategories |
 	tmpFileName := self askFileName askFileNameText.
@@ -14,7 +14,7 @@ askLoad
 	tmpItemCategories := Dictionary new.
 	tmpCategoryItems := Dictionary new.
 
-	tmpFileName asFileReference readStreamDo: [ :tmpStream |
+	FileStream readOnlyFileNamed: tmpFileName do: [ :tmpStream |
 
 		[ tmpStream atEnd ] whileFalse: [
 			tmpChar := tmpStream next.
