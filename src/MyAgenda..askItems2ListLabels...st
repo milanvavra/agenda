@@ -1,5 +1,8 @@
-!MyAgenda methodsFor: 'view' stamp: 'mva 2/26/2015 16:19'!
+!MyAgenda methodsFor: 'view' stamp: 'mva 3/17/2016 15:32'!
 askItems2ListLabels
-	^ self askItems2List collect: [ :tmpItem | tmpItem askItemText, '(', (self askItemCategories at: tmpItem) size asString, ')'].
-
+	^ self askItems2List collect: [ :tmpItem |
+		OrderedCollection new add: tmpItem askItemText;
+			add: (self askItemCategories at: tmpItem) size;
+			yourself
+	]
 ! !
